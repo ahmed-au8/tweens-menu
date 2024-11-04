@@ -1,0 +1,252 @@
+<!-- <!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+<!--     <header>
+        <h1>قائمة الطعام</h1>
+        <nav>
+            <a href="#fries">فرايز</a>
+            <a href="#kids-meal">وجبة أطفال</a>
+            <a href="#aqashi">الأقاشي</a>
+            <a href="#sandwiches">السندوتشات</a>
+            <a href="#hot-drinks">مشروبات ساخنة</a>
+            <a href="#cold-drinks">مشروبات باردة</a>
+            <a href="#zalabiya">الزلابية</a>
+            <a href="#new-twinz">جديد من توينز</a>
+        </nav>
+    </header>
+
+    <!-- Fries Section -->
+ <!--    <section id="fries">
+        <h2>فرايز</h2>
+        <ul>
+            <li>فرايز - 30</li>
+            <li>فرايز شيدر - 55</li>
+            <li>فرايز لحم شيدر - 75</li>
+            <li>فرايز فراخ شيدر - 65</li>
+            <li>فرايز هوت دوج شيدر - 60</li>
+        </ul>
+    </section> -->
+
+    <!-- Kids Meal Section -->
+   <!--  <section id="kids-meal">
+        <h2>وجبة أطفال</h2>
+        <p>ناجتس + فرايز + عصير - 80</p>
+    </section> -->
+
+    <!-- Aqashi Section -->
+<!--     <section id="aqashi">
+        <h2>الأقاشي</h2>
+        <ul>
+            <li>عادي - 50</li>
+            <li>جامبو - 80</li>
+            <li>طلب أقاشي - 120</li>
+        </ul>
+    </section> -->
+ 
+    <!-- Sandwiches Section -->
+ <!--    <section id="sandwiches">
+        <h2>السندوتشات</h2>
+        <ul>
+            <li>ستريبس (محدد دجاج مقلية كول سلو صوص مثل كاتشب) - 80</li>
+            <li>زنجر (محدد دجاج مقلية كول سلو صوص مثل كاتشب) - 85</li>
+            <li>شيش (محدد دجاج مشوية صوص مثل كاتشب) - 75</li>
+        </ul>
+    </section> -->
+
+    <!-- Hot Drinks Section -->
+  <!--   <section id="hot-drinks">
+        <h2>مشروبات ساخنة</h2>
+        <ul>
+            <li>شاي مغنق (صغير 35 - كبير 45)</li>
+            <li>شاي بدرة (صغير 35 - كبير 45)</li>
+            <li>نسكافيه - 50</li>
+            <li>هوت شوكليت - 50</li>
+        </ul>
+    </section> -->
+
+    <!-- Cold Drinks Section -->
+<!--     <section id="cold-drinks">
+        <h2>مشروبات باردة</h2>
+        <ul>
+            <li>آيس كوفي - 60</li>
+            <li>آيس توينز - 70</li>
+            <li>آيس لوتس - 75</li>
+        </ul>
+    </section>
+ -->
+    <!-- Zalabiya Section -->
+ <!--    <section id="zalabiya">
+        <h2>الزلابية</h2>
+        <ul>
+            <li>توينز أي صوص من اختيارك - 129/145/195</li>
+            <li>نوتيلا صافي - 119/139/189</li>
+        </ul>
+    </section> -->
+
+    <!-- New from Twinz Section -->
+  <!--   <section id="new-twinz">
+        <h2>جديد من توينز</h2>
+        <ul>
+            <li>فستق وشوكولاتة بيضاء - 140/180/230</li>
+            <li>كندر وشوكولاتة بيضاء - 130/170/220</li>
+        </ul>
+    </section>
+
+</body>
+</html>
+ --> 
+ <!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header, section {
+            width: 90%;
+            max-width: 800px;
+            margin: auto;
+        }
+        header {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #800000;
+            color: #fff;
+        }
+        h1, h2 {
+            color: #800000;
+        }
+        h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .price {
+            color: #555;
+        }
+        /* PDF Download Button */
+        #pdf-download {
+            text-align: center;
+            margin-top: 20px;
+        }
+        #pdf-download a {
+            background-color: #800000;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        #pdf-download a:hover {
+            background-color: #990000;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>قائمة الطعام</h1>
+    </header>
+
+    <!-- PDF Download Section -->
+    <section id="pdf-download">
+        <h2>تحميل القائمة كملف PDF</h2>
+        <p>يمكنك تحميل القائمة كملف PDF للاطلاع عليها بسهولة:</p>
+        <a href="menu_combined.pdf" download>تحميل القائمة</a>
+    </section>
+
+    <!-- Menu Sections -->
+    
+    <!-- Fries Section -->
+    <section id="fries">
+        <h2>فرايز</h2>
+        <ul>
+            <li><span>فرايز</span><span class="price">30</span></li>
+            <li><span>فرايز شيدر</span><span class="price">55</span></li>
+            <li><span>فرايز لحم شيدر</span><span class="price">75</span></li>
+            <li><span>فرايز فراخ شيدر</span><span class="price">65</span></li>
+            <li><span>فرايز هوت دوج شيدر</span><span class="price">60</span></li>
+        </ul>
+    </section>
+
+    <!-- Kids Meal Section -->
+    <section id="kids-meal">
+        <h2>وجبة أطفال</h2>
+        <ul>
+            <li><span>ناجتس + فرايز + عصير</span><span class="price">80</span></li>
+        </ul>
+    </section>
+
+    <!-- Aqashi Section -->
+    <section id="aqashi">
+        <h2>الأقاشي</h2>
+        <ul>
+            <li><span>عادي</span><span class="price">50</span></li>
+            <li><span>جامبو</span><span class="price">80</span></li>
+            <li><span>طلب أقاشي</span><span class="price">120</span></li>
+        </ul>
+    </section>
+
+    <!-- Sandwiches Section -->
+    <section id="sandwiches">
+        <h2>السندوتشات</h2>
+        <ul>
+            <li><span>ستريبس (محدد دجاج مقلية كول سلو صوص مثل كاتشب)</span><span class="price">80</span></li>
+            <li><span>زنجر (محدد دجاج مقلية كول سلو صوص مثل كاتشب)</span><span class="price">85</span></li>
+            <li><span>شيش (محدد دجاج مشوية صوص مثل كاتشب)</span><span class="price">75</span></li>
+        </ul>
+    </section>
+
+    <!-- Hot Drinks Section -->
+    <section id="hot-drinks">
+        <h2>مشروبات ساخنة</h2>
+        <ul>
+            <li><span>شاي مغنق (صغير)</span><span class="price">35</span></li>
+            <li><span>شاي مغنق (كبير)</span><span class="price">45</span></li>
+            <li><span>شاي بدرة (صغير)</span><span class="price">35</span></li>
+            <li><span>شاي بدرة (كبير)</span><span class="price">45</span></li>
+            <li><span>نسكافيه</span><span class="price">50</span></li>
+            <li><span>هوت شوكليت</span><span class="price">50</span></li>
+        </ul>
+    </section>
+
+    <!-- Cold Drinks Section -->
+    <section id="cold-drinks">
+        <h2>مشروبات باردة</h2>
+        <ul>
+            <li><span>آيس كوفي</span><span class="price">60</span></li>
+            <li><span>آيس توينز</span><span class="price">70</span></li>
+            <li><span>آيس لوتس</span><span class="price">75</span></li>
+        </ul>
+    </section>
+
+</body>
+</html>
